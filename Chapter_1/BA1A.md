@@ -22,8 +22,19 @@ fn pattern_count(text: &str, pattern: &str) -> u32 {
     count
 }
 ```
+## Performances
+### Complexity
+$O(n)$
+
+### Time
+- **OS:** Ubuntu 20.04.3 LTS x86_64 
+- **CPU:** 11th Gen Intel i7-1165G7 (8) @ 4.700GHz
+- **RAM** : 15686MiB
+
+Tests were done on [theses files.](http://bioinformaticsalgorithms.com/data/debugdatasets/replication/PatternCount.zip)
+| File_name | Time |
+|      |      |
+|      |      |
 
 ## More informations
 - [Link to the challenge](https://rosalind.info/problems/ba1a/)
-- Time test : 
-- Complexity: $O(n)$

@@ -5,5 +5,9 @@ I am learning Rust while I am following the wonderfull [Bioinformatics Algorithm
  ## Progress <!-- {docsify-ignore} -->
  
  - Chapter 1
-   - Compute the Number of Times a Pattern Appears in a Text ✅
-   - 
+   - [✅ Compute the Number of Times a Pattern Appears in a Text](/Chapter_1/BA1A)
+   - ... 
+
+That's all? 
+Yes bro, I just create this page and I will update it later, Most of the algorithms implementations are already done for the chapter 1 but I want to take the time to correctly explain all of it in order to writte in indelible form in my brain how they work. 
+
