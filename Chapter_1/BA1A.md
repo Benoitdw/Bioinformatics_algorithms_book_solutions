@@ -1,6 +1,10 @@
 # Compute the Number of Times a Pattern Appears in a Text
 This is a really easy algorithm which compute the number of time a pattern appears in a text.
-## Pseudocode
+
+
+## Implementations
+<!-- tabs:start -->
+### **Pseudocode**
 ```pseudocode
     PatternCount(Text, Pattern)
         count ← 0
@@ -10,11 +14,21 @@ This is a really easy algorithm which compute the number of time a pattern appea
         return count
 ```
 
-## Implementation in Rust
+### **Python**
+```python
+def pattern_count(text: str, pattern: str) -> int:
+    count = 0
+    for i in range(len(text)-(len(pattern)-1)):
+        if text[i:i+(len(pattern))] == pattern:
+            count += 1
+    print(count)
+```
+
+### **Rust**
 ```rust
 fn pattern_count(text: &str, pattern: &str) -> u32 {
     let mut count : u32 = 0;
-    for i in 0..text.len() - pattern.len()+1 {
+    for i in 0..text.len() - (pattern.len()-11) {
         if &text[i..i+pattern.len()] == pattern {
             count += 1;
         }
@@ -22,6 +36,7 @@ fn pattern_count(text: &str, pattern: &str) -> u32 {
     count
 }
 ```
+<!-- tabs:end -->
 ## Performances
 ### Complexity
 $O(n)$
